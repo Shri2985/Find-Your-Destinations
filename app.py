@@ -6,7 +6,7 @@ from sqlalchemy import create_engine, func
 from flask import Flask, render_template, redirect, jsonify
 
 #database setup
-connection_string = "curitirfxmwgst:0b6553d1d2876fe8d3850d9dc9090b9d4d156e0307b6923703277aef3d140eea@ec2-54-159-138-67.compute-1.amazonaws.com:5432/dfvj0ivhcpion9"
+connection_string = "root:RamNivas08@predictyoursalary.cruwlreaual5.us-east-2.rds.amazonaws.com:5432/predictyoursalary"
 engine = create_engine(f'postgresql://{connection_string}')
 # reflect an existing database into a new model
 Base = automap_base()
